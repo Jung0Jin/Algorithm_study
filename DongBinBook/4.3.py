@@ -1,10 +1,12 @@
-# 답안 예시
+# 게임 개발
+
+# 4-4.py 답안 예시
 # N, M을 공백으로 구분하여 입력받기
 n, m = map(int, input().split())
 
 # 방문한 위치를 저장하기 위한 맵을 생성하여 0으로 초기화
 d = [[0] * m for _ in range(n)]
-# 혅 캐릭터의 X 좌표, Y 좌표, 방향을 입력받기
+# 현재 캐릭터의 X 좌표, Y 좌표, 방향을 입력받기
 x, y, direction = map(int, input().split())
 d[x][y] = 1 # 현재 좌표 방문 처리
 
@@ -51,7 +53,7 @@ while True:
         if array[nx][ny] == 0:
             x = nx
             y = ny
-        # 뒤에 바다로 막혀있는 경우
+        # 뒤가 바다로 막혀있는 경우
         else:
             break
         turn_time = 0
