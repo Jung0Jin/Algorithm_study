@@ -1,3 +1,3 @@
-word='z'
-word=word+'zzzz'
-print(word)
+temp = [10, 11, 12]
+temp.sort(reverse=True)
+print(temp)
