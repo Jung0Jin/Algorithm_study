@@ -1,3 +1,2 @@
-temp = [10, 11, 12]
-temp.sort(reverse=True)
-print(temp)
+a = list(map(int, input().split()))
+print(min(a))
