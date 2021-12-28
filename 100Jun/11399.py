@@ -8,5 +8,5 @@ withdraw = []
 for i in range(n):
     # print(i+1, list_pi[i])
     withdraw.append((i+1) * list_pi[i])
-
+    
 print(sum(withdraw))
