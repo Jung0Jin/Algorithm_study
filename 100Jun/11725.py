@@ -25,5 +25,6 @@ def bfs():
 
 bfs()
 
+
 for i in parent[2:]:
     print(i)
